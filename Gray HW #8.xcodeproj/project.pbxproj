@@ -15,6 +15,9 @@
 		522986F9245F5EB100854E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522986F7245F5EB100854E51 /* LaunchScreen.storyboard */; };
 		52298704245F5EB100854E51 /* Gray_HW__8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52298703245F5EB100854E51 /* Gray_HW__8Tests.swift */; };
 		5229870F245F5EB100854E51 /* Gray_HW__8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229870E245F5EB100854E51 /* Gray_HW__8UITests.swift */; };
+		5229871D245F712700854E51 /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5229871C245F712700854E51 /* grass.jpg */; };
+		5229871F245F721C00854E51 /* doggo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5229871E245F721C00854E51 /* doggo.jpg */; };
+		52298721245F7EE700854E51 /* wet doggo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52298720245F7EE700854E51 /* wet doggo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5229870A245F5EB100854E51 /* Gray HW #8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gray HW #8UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5229870E245F5EB100854E51 /* Gray_HW__8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gray_HW__8UITests.swift; sourceTree = "<group>"; };
 		52298710245F5EB100854E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5229871C245F712700854E51 /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grass.jpg; path = ../../../../Documents/grass.jpg; sourceTree = "<group>"; };
+		5229871E245F721C00854E51 /* doggo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = doggo.jpg; path = ../../../../Documents/doggo.jpg; sourceTree = "<group>"; };
+		52298720245F7EE700854E51 /* wet doggo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wet doggo.png"; path = "../../../../Documents/wet doggo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,10 @@
 				522986EE245F5EAE00854E51 /* SceneDelegate.swift */,
 				522986F0245F5EAE00854E51 /* ViewController.swift */,
 				522986F2245F5EAE00854E51 /* Main.storyboard */,
+				52298720245F7EE700854E51 /* wet doggo.png */,
+				5229871E245F721C00854E51 /* doggo.jpg */,
 				522986F5245F5EB100854E51 /* Assets.xcassets */,
+				5229871C245F712700854E51 /* grass.jpg */,
 				522986F7245F5EB100854E51 /* LaunchScreen.storyboard */,
 				522986FA245F5EB100854E51 /* Info.plist */,
 			);
@@ -232,8 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5229871F245F721C00854E51 /* doggo.jpg in Resources */,
+				5229871D245F712700854E51 /* grass.jpg in Resources */,
 				522986F9245F5EB100854E51 /* LaunchScreen.storyboard in Resources */,
 				522986F6245F5EB100854E51 /* Assets.xcassets in Resources */,
+				52298721245F7EE700854E51 /* wet doggo.png in Resources */,
 				522986F4245F5EAE00854E51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 365X9WR9C8;
 				INFOPLIST_FILE = "Gray HW #8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 365X9WR9C8;
 				INFOPLIST_FILE = "Gray HW #8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
